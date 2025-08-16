@@ -1,0 +1,22 @@
+.cache/
+**/cache/
+*.log
+*.tmp
+
+# big or generated
+.config/wal/
+.config/matugen/
+.config/swww/
+.config/fastfetch/
+
+# app profiles you likely don't want online
+.config/chromium/
+.config/firefox/
+.config/discord/
+.config/Steam/
+.config/spotify/
+
+# gtk bookmarks (personal paths)
+.config/gtk-3.0/bookmarks
+.config/gtk-4.0/bookmarks
+
