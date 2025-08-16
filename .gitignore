@@ -1,22 +1,56 @@
-.cache/
-**/cache/
+# ---- General junk ----
 *.log
 *.tmp
+*.bak
+*.swp
+*~
 
-# big or generated
+# ---- Cache & temp ----
+.cache/
+**/cache/
+**/__pycache__/
+
+# ---- Hyprland ----
+.config/hypr/backup/
+.config/hypr/crashlogs/
+
+# ---- GTK / icons ----
+.config/gtk-3.0/bookmarks
+.config/gtk-4.0/bookmarks
+.config/gtk-3.0/gtk.css
+.config/gtk-4.0/gtk.css
+
+# ---- Waybar ----
+.config/waybar/config-backup.json
+.config/waybar/*.log
+
+# ---- Rofi ----
+.config/rofi/.rofi-cache
+.config/rofi/history
+
+# ---- Neovim ----
+.config/nvim/backup/
+.config/nvim/swap/
+.config/nvim/undo/
+
+# ---- Wal / Matugen ----
 .config/wal/
 .config/matugen/
 .config/swww/
-.config/fastfetch/
 
-# app profiles you likely don't want online
+# ---- Apps (personal state you don’t want public) ----
 .config/chromium/
 .config/firefox/
 .config/discord/
-.config/Steam/
 .config/spotify/
+.config/Steam/
+.config/obsidian/
+.config/vesktop/
+.config/TelegramDesktop/
 
-# gtk bookmarks (personal paths)
-.config/gtk-3.0/bookmarks
-.config/gtk-4.0/bookmarks
+# ---- Pulse / audio runtime ----
+.config/pulse/
 
+# ---- Other ----
+.config/lutris/
+.config/heroic/
