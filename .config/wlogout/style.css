@@ -1,0 +1,69 @@
+@import url("../waybar/colors/matugen.css");
+
+window {
+    font-family: monospace;
+    font-size: 14pt;
+    color: #cdd6f4; /* text */
+    background-color: alpha(@surface, 0.4);
+    }
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    border-radius: 30px;
+    border: none;
+    background-color: alpha(@primary_container, 0.3);
+    margin: 5px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: alpha(@on_primary_container, 0.5);
+}
+
+button:focus {
+    outline:none;
+    box-shadow:none;
+}
+
+#lock {
+    background-image: image(url("./lock.png"));
+}
+#lock:focus {
+    background-image: image(url("./lock.png"));
+}
+
+#logout {
+    background-image: image(url("./logout.png"));
+}
+#logout:focus {
+    background-image: image(url("./logout.png"));
+}
+
+#suspend {
+    background-image: image(url("./suspend.png"));
+}
+#suspend:focus {
+    background-image: image(url("./suspend.png"));
+}
+
+#shutdown {
+    background-image: image(url("./shutdown.png"));
+}
+#shutdown:focus {
+    background-image: image(url("./shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("./reboot.png"));
+}
+#reboot:focus {
+    background-image: image(url("./reboot.png"));
+}
+#hibernate {
+    background-image: image(url("./hibernate.png"));
+}
+#hibernate:focus {
+    background-image: image(url("./hibernate.png"));
+}

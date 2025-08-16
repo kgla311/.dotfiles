@@ -1,0 +1,117 @@
+/* Import your colors */
+@import url("colors/matugen.css");
+
+* {
+    font-family: 'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace, 'Font Awesome 6 Brands';
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: @text;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces {
+    margin: 0 3px;
+    padding: 2px;
+    background-color: alpha(@background, 0.6);
+    border-radius: 10px;
+    min-height: 26px; /* match notification height */ 
+} 
+/* Each workspace button */
+#workspaces button {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 2px 5px; /* match notification padding */
+    border-radius: 0;
+    min-height: 26px; /* match bar height */
+}
+
+#workspaces button:hover {
+    background-color: alpha(@on_background, 0.2);
+}
+
+#workspaces button.focused {
+    background-color: alpha(@error_container, 0.4);
+}
+
+#workspaces button.urgent {
+    background-color: alpha(@error_container, 0.3);
+}
+
+#workspaces button:not(:last-child) {
+    border-right: 1px solid alpha(@tertiary, 0.4); /* light, subtle */
+}
+
+/* Match spacing: add extra gap between cat & notification */
+#custom-cat {
+    background-color: alpha(@error, 0.6);
+    color: #ffffff;
+    margin-right: 2px; /* increased gap */
+}
+/* Consistent size for all modules */
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#custom-cat,
+#custom-pacman,
+#custom-expand,
+#tray,
+#mpris,
+#language,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#custom-wlogout,
+#mpd,
+#custom-notification {
+    padding: 4px 12px;     /* uniform padding */
+    margin: 2px 3px;       /* uniform margin */
+    min-height: 26px;      /* same height */
+    border-radius: 10px;
+    background-color: alpha(@background, 0.6)
+}
+
+/* Keep background colors from original config */
+#custom-cat {
+    background-color: alpha(@error, 0.6);
+    color: #ffffff;
+}
+
+#battery.critical:not(.charging) {
+    background-color: alpha(@error, 0.6);
+    animation: blink 0.5s steps(12) infinite alternate;
+}
+
+#custom-notification {
+    background-color: alpha(@background, 0.6);
+}
+
+/* Group info with continuous background */
+#group-info {
+    margin: 4px 6px;
+    padding: 0 10px;
+    background-color: alpha(@error, 0.6);
+    border-radius: 10px;
+}
+
+#group-info > * {
+    margin: 0 4px; /* small space between items inside group */
+}
+

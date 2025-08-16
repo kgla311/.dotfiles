@@ -1,0 +1,41 @@
+/*
+ * This file contains list of bookmarked directories.
+ * 
+ */
+[
+    {
+        "path": "/home/me/Documents",
+        "name": "Documents",
+        "origin": ["lsp", "gtk3", "qt5"]
+    },
+    {
+        "path": "/home/me/Music",
+        "name": "Music",
+        "origin": ["lsp", "gtk3", "qt5"]
+    },
+    {
+        "path": "/home/me/Pictures",
+        "name": "Pictures",
+        "origin": ["lsp", "gtk3", "qt5"]
+    },
+    {
+        "path": "/home/me/Videos",
+        "name": "Videos",
+        "origin": ["lsp", "gtk3", "qt5"]
+    },
+    {
+        "path": "/home/me/Downloads",
+        "name": "Downloads",
+        "origin": ["lsp", "gtk3", "qt5"]
+    },
+    {
+        "path": "/home/me",
+        "name": "Home",
+        "origin": ["lsp", "qt5"]
+    },
+    {
+        "path": "/home/me/Desktop",
+        "name": "Desktop",
+        "origin": ["lsp", "qt5"]
+    }
+]

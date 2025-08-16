@@ -1,0 +1,54 @@
+["gx_plugin_version", 1,
+  "middle", {
+    "graphiceq.g1": -17.6568,
+    "graphiceq.g10": -20.1318,
+    "graphiceq.g11": -22.1199,
+    "graphiceq.g2": -9.82684,
+    "graphiceq.g3": -6,
+    "graphiceq.g4": -4.19339,
+    "graphiceq.g5": -1.68202,
+    "graphiceq.g6": -2.62248,
+    "graphiceq.g7": -2.82096,
+    "graphiceq.g8": -4.68404,
+    "graphiceq.g9": -9.5677
+  },
+  "symbolic +/-", {
+    "graphiceq.g1": -3.02439,
+    "graphiceq.g10": -20.1318,
+    "graphiceq.g11": -22.1199,
+    "graphiceq.g2": -9.82684,
+    "graphiceq.g3": -6,
+    "graphiceq.g4": -4.19339,
+    "graphiceq.g5": -9.80789,
+    "graphiceq.g6": 0.0390184,
+    "graphiceq.g7": -2.82096,
+    "graphiceq.g8": -4.68404,
+    "graphiceq.g9": -9.5677
+  },
+  "stand", {
+    "graphiceq.g1": -3.02439,
+    "graphiceq.g10": -20.1318,
+    "graphiceq.g11": -22.1199,
+    "graphiceq.g2": -9.82684,
+    "graphiceq.g3": -6,
+    "graphiceq.g4": -4.19339,
+    "graphiceq.g5": -9.80789,
+    "graphiceq.g6": -3.38153,
+    "graphiceq.g7": -5.74627,
+    "graphiceq.g8": -9.09023,
+    "graphiceq.g9": -13.2582
+  },
+  "symbolic", {
+    "graphiceq.g1": -5.19761,
+    "graphiceq.g10": 10.7684,
+    "graphiceq.g11": -22.1199,
+    "graphiceq.g2": -5.19913,
+    "graphiceq.g3": 6.51312,
+    "graphiceq.g4": -11.1547,
+    "graphiceq.g5": -10.4682,
+    "graphiceq.g6": 0.0390184,
+    "graphiceq.g7": -0.743943,
+    "graphiceq.g8": -6.28152,
+    "graphiceq.g9": 2.20206
+  }
+]

@@ -1,0 +1,10 @@
+["gx_plugin_version", 1,
+  "floods", {
+    "stereodelay.invert": "linear",
+    "stereodelay.l_gain": -5.86797,
+    "stereodelay.lbpm": 187.551,
+    "stereodelay.lfobpm": 68.4947,
+    "stereodelay.r_gain": -11.0922,
+    "stereodelay.rbpm": 219.494
+  }
+]

@@ -1,0 +1,32 @@
+
+//@theme "/home/me/.local/share/rofi/themes/spotlight-dark.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/rounded-nord-dark.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/squared-nord.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/windows11-grid-dark.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/spotlight-dark.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/windows11-grid-dark.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/spotlight-dark.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/launchpad.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/windows11-grid-dark.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/spotlight-dark.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/launchpad.rasi"
+
+//@theme "/home/me/.local/share/rofi/themes/spotlight-dark.rasi"
+
+element-icon{
+  size: 1.65ch;
+}
+
+//@theme "/home/me/.local/share/rofi/themes/launchpad.rasi"
+
+@theme "/home/me/.local/share/rofi/themes/spotlight-dark.rasi"

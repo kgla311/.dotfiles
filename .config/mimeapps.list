@@ -1,0 +1,9 @@
+[Added Associations]
+application/pdf=zathura.desktop;
+image/jpeg=imv-3.desktop;
+image/png=imv-5.desktop;imv-4.desktop;imv-2.desktop;
+
+[Default Applications]
+application/pdf=zathura.desktop;
+image/jpeg=imv-3.desktop;
+image/png=imv-5.desktop;

@@ -1,0 +1,13 @@
+["gx_plugin_version", 1,
+  "floods", {
+    "didest.Freeze": 0,
+    "didest.bpm": 197.149,
+    "didest.feedback": 34.1426,
+    "didest.gain": 46.2554,
+    "didest.highpass": 20,
+    "didest.howpass": 8488.28,
+    "didest.level": 63.6511,
+    "didest.mode": "tape",
+    "didest.notes": " Dotted 1/4 note"
+  }
+]
