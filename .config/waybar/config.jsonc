@@ -120,7 +120,8 @@
     },
     "custom/cat": {
 	"format":"	 ",
-	"on-click":"pkill bongocat && bongocat --config ~/.config/bongocat/bongocat.conf"
+	"on-click":"pkill bongocat && bongocat --config ~/.config/bongocat/bongocat.conf",
+	"tooltip": false
     },
     "custom/notification": {
 	"tooltip": false,
